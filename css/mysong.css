@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Yuji+Syuku&display=swap');
+
+body {
+    background: tan;
+    background-image: url(../images/mysong-tn.png);
+    background-repeat: no-repeat;
+}
+
+.ttl {
+    font-size: 40px;
+    font-family: "Yuji Syuku", serif;
+    letter-spacing: 2px;
+    color: rgb(230, 145, 9);
+    margin-bottom: 40px;
+    text-shadow: 3px 3px #f65403;
+}
+
+.uta-lyrics {
+    color: rgb(55, 51, 51);
+    font-size: 30px;
+    font-family: "Yuji Syuku", serif;
+    line-height: 1.8;
+    padding: 80px 0;
+    border-left: 1px solid #666;
+    padding-left: 20px;
+    text-shadow: 2px 2px 5px rgba(175, 34, 34, 0.3);
+}
+
+.uh:hover {
+    background-image: url(../images/mysong2.png);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+        transition: all 3s;
+
+}
